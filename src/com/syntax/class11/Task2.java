@@ -8,7 +8,7 @@ import java.util.Scanner;
 			public static void main(String[] args) {
 				
 				/*
-				 * Create an array of int values using a scanner and calculate
+				 * Create an 2D array of int values using a scanner and calculate
 				 * the sum of all stored elements in that array
 				 * pseudo programing
 				 * 1)Create the 2d array
