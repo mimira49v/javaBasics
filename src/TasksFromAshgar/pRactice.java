@@ -1,3 +1,5 @@
+package TasksFromAshgar;
+
 import java.util.Scanner;
 class pRactice {
 public static void main (String [] args) {
