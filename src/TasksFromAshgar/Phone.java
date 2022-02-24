@@ -19,12 +19,13 @@ public class Phone {
 	}
 	
 	void printCompleteInfo() {
-		System.out.println("make "+make);
-		System.out.println("model "+model);
-		System.out.println("noOfCams "+noOfCams);
-		System.out.println("color "+color);
-		System.out.println("screenSize "+screenSize);
-		System.out.println("os "+os);
+
+		System.out.println("make "       +make);
+		System.out.println("model "      +model);
+		System.out.println("noOfCams "   +noOfCams);
+		System.out.println("color "      +color);
+		System.out.println("screenSize  "+screenSize);
+		System.out.println("os "         +os);
 		System.out.println("phoneNumber "+phoneNumber);
 
 	}

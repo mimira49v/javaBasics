@@ -7,15 +7,9 @@ public class Country {
 
     String country;
 
-    void spain(){
-        System.out.println   (country  +": hola");
-    }
-    void france(){
-        System.out.println  (country  +": Bonjour");
-    }
-    void us(){
-        System.out.println      (country  +": hello");
-    }
+    void spain(){System.out.println     (country  +": hola");}
+    void france(){System.out.println    (country  +": Bonjour");}
+    void us(){System.out.println        (country  +": hello");}
     void mexico(){System.out.println    (country  +": que passa cabron");}
 
     public static void main(String[] args){

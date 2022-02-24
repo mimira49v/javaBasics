@@ -5,6 +5,7 @@ import java.util.Scanner;
 class pRactice {
 
 public static void main (String [] args) {
+
   Scanner scan=new Scanner(System.in);
   System.out.println("Please enter two strings:");
   String str = scan.nextLine();
