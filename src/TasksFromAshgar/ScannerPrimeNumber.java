@@ -14,11 +14,8 @@ public class ScannerPrimeNumber {
                 isItPrime = false;
 
                 return isItPrime;
-            }
-            else
-            {
-                for (int i = 2; i<= inputNumber/2; i++)
-                {
+            }else {
+                for (int i = 2; i<= inputNumber/2; i++) {
                     if ((inputNumber % i) == 0)
                     {
                         isItPrime = false;
