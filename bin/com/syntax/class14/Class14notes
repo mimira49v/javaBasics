@@ -1,12 +1,12 @@
 Methods:
 A block of code or set of instructions that are executed when we call a method.
 two main types of methods
-predefind(built-in) and user defined
+predefined(built-in) and user defined
 predefined methods are the methods by java guys they are part of JDK
 like nextInt method
 user defined methods are the methods that are created by us.(user)
 class Methods{
-void addTwoNumber(int num1, int num2){
+int addTwoNumber(int num1, int num2){
 System.out.println(num1, num2);
 return num1+num2;
 }
