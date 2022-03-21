@@ -1,6 +1,6 @@
-package PictureGroupTask;
+package GroupTask.Task5;
 
-public class ChromeDriver implements RemoteWebDriver {
+public class SafariDriver implements RemoteWebDriver{
     @Override
     public void navigate() {
 
