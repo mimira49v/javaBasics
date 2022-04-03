@@ -7,6 +7,7 @@ public class Dog {
     int age;
     double weight;
     //  overloading the constructors
+
     Dog(){ //constructor
         System.out.println("No Argument constructor");
     }

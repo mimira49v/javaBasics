@@ -30,6 +30,10 @@ class Visa extends CreditCard{
         super(balance, interest);
     }
 
+    //public Visa(String credit) {
+        //super();
+   // }
+// get the code from github
     @Override
     void calculateInterest() {
         System.out.println((balance*interest)+1);

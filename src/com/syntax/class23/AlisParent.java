@@ -12,5 +12,6 @@ class Ali extends AlisParent{
     void marry(){
     System.out.println("But dad i wnat to marry "+girlName);
     super.marry();
+
     }
 }
