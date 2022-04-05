@@ -26,3 +26,4 @@ public class MapDemo07 {
         // sout is {Banana=10.2} cuz theres no "e" and as well we are using || !!!!!!!
     }
 }
+
