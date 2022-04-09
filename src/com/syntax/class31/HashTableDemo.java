@@ -13,7 +13,7 @@ public class HashTableDemo {
         students.put("4","Yazgul");
         students.put("5","Gulden");
 
-        //
+
         Set<Map.Entry<String,String>> entrySet = students.entrySet();
         for (Map.Entry<String, String>entry:entrySet) {
             System.out.println(entry);
