@@ -28,5 +28,22 @@
         <jarDirectory url="jar://$USER_HOME$/Downloads/chromedriver_win32.zip!/" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2/poi-5.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2/poi-examples-5.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2/poi-excelant-5.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2/poi-ooxml-5.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2/poi-ooxml-full-5.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2/poi-ooxml-lite-5.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2/poi-scratchpad-5.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Downloads/poi-bin-5.2.2/poi-javadoc-5.2.2.jar!/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
