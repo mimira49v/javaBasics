@@ -19,7 +19,7 @@ public class ExcelDemo05 {
             for (int j = 0; j < 5; j++) {
                 Cell cell = row.createCell(j);
                 cell.setCellValue(i+" "+j);
-                cell.setCellValue("Julia");
+                cell.setCellValue("Milos");
             }
         }
         hssfWorkbook.write(fileOutputStream);

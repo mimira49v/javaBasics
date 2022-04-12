@@ -10,6 +10,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ExcelDemo04 {
+    // CREATING CELL NAMED ALI BURAFA //
     public static void main(String[] args) throws IOException {
     String path = "C:\\Users\\mileu\\OneDrive\\Desktop\\Previous LapTop\\Test\\Batch12.xlsx";
         FileOutputStream fileOutputStream = new FileOutputStream(path);
