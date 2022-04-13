@@ -1,7 +1,7 @@
 package com.syntax.reviewClass11;
 
 public class Parent {
-     void method1(){
+    void method(){
         System.out.println("I like mangoes");
     }
     public void method2(){
