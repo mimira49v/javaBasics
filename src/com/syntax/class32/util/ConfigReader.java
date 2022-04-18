@@ -1,7 +1,6 @@
 package com.syntax.class32.util;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -16,9 +15,10 @@ public class ConfigReader {
 
         //special class which knows how to read the .properties file
         Properties properties = new Properties();
-        //loading all the data from the file to properties object
 
+        //loading all the data from the file to properties object
        properties.load(fileInputStream);
+
        return  properties.getProperty(key);
     }
 }

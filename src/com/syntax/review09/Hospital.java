@@ -1,7 +1,5 @@
 package com.syntax.review09;
 
-import javax.print.Doc;
-
 public class Hospital {
     public static void main(String[] args) {
 

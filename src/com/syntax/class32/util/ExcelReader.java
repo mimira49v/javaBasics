@@ -5,7 +5,6 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -17,7 +16,7 @@ public class ExcelReader {
         FileInputStream fileInputStream=new FileInputStream(path);
         XSSFWorkbook xssfWorkbook=new XSSFWorkbook(fileInputStream);
         Sheet sheet=xssfWorkbook.getSheet(sheetName);
-        // A list of maps to store store the data from excel each map will store the data from each row
+        // A list of maps to store the data from excel each map will store the data from each row
         List<Map<String,String>> excelData=new ArrayList<>();
         //getting the header from the Excel file so that we can use the data from this header row as keys for the maps like firstName lastname etc
         Row headerRow=sheet.getRow(0);

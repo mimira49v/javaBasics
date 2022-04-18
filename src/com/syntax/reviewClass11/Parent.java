@@ -16,7 +16,7 @@ class Child extends Parent{
 class Test{
     public static void main(String[] args) {
         Child child = new Child();
-        child.method1();
         child.method2();
+        child.method1();
     }
 }
